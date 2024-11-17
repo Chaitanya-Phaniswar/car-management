@@ -46,7 +46,10 @@ const CarListPage = () => {
     } else {
       const filtered = cars.filter((car) =>
         car.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        car.description.toLowerCase().includes(searchTerm.toLowerCase())
+        car.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        car.tags.some((tag) =>
+          tag.toLowerCase().includes(searchTerm.toLowerCase())
+        )
       );
       setFilteredCars(filtered);
     }

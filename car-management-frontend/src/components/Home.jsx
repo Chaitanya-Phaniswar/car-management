@@ -20,6 +20,9 @@ const Home = () => {
     navigate('/signup');
   };
 
+  const handleAddNewCar = () => {
+    navigate('/add-car');
+  };
   return (
     <Box
       sx={{
@@ -90,6 +93,7 @@ const Home = () => {
                   variant="contained"
                   color="primary"
                   size="large"
+                  onClick={handleAddNewCar}
                   startIcon={<AddCircleOutlineIcon />}
                   href="/add-car"
                   sx={{

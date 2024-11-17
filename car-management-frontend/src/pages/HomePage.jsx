@@ -9,7 +9,7 @@ const HomePage = () => {
   const {user} =useContext(UserContext)
   return (
     <>
-      {user ? <Main /> : <Home />}
+       <Home />
     </>
   );
 };

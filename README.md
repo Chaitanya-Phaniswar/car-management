@@ -5,6 +5,7 @@ A full-stack MERN application for managing car listings with authentication, ima
 ## 🌐 Live Demo
 
 - **Frontend:** [https://car-management-ruddy.vercel.app//](https://car-management-peach.vercel.app/)
+- **Demo Credentials** Email - tester@gmail.com, Password - Tester
 - **Backend:** [https://car-management-kpbx.onrender.com/](https://car-management-kpbx.onrender.com/)
 - **API Documentation:** [https://car-management-kpbx.onrender.com/api-docs](https://car-management-kpbx.onrender.com/api-docs)
 

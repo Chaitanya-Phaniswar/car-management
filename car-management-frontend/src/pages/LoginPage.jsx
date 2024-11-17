@@ -19,6 +19,7 @@ const LoginPage = () => {
       const { token, username, userId } = response.data;
       loginUser(token, username, userId);
     } catch (err) {
+      console.log(err)
       setError(err.response?.data?.message || 'Login failed');
     }
   };

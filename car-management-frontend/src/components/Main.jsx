@@ -4,7 +4,7 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { useNavigate } from 'react-router-dom';
 import UserContext from '../context/UserContext'; // Adjust the import path as needed
 
-const Home = () => {
+const Main = () => {
   const { user } = useContext(UserContext); // Access the user from context
   const navigate = useNavigate();
 
@@ -63,4 +63,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Main;

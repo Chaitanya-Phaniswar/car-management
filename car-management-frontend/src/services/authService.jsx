@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_URL = `https://car-management-kpbx.onrender.com`;
+const API_URL = `https://car-management-kpbx.onrender.com/api`;
 
 export const signup = async (data) => {
     return await axios.post(`${API_URL}/auth/signup`, data);

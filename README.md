@@ -4,7 +4,7 @@ A full-stack MERN application for managing car listings with authentication, ima
 
 ## 🌐 Live Demo
 
-- **Frontend:** [https://car-management-peach.vercel.app/](https://car-management-peach.vercel.app/)
+- **Frontend:** [https://car-management-ruddy.vercel.app//](https://car-management-peach.vercel.app/)
 - **Backend:** [https://car-management-kpbx.onrender.com/](https://car-management-kpbx.onrender.com/)
 - **API Documentation:** [https://car-management-kpbx.onrender.com/api-docs](https://car-management-kpbx.onrender.com/api-docs)
 
@@ -21,7 +21,6 @@ A full-stack MERN application for managing car listings with authentication, ima
 
 ### Frontend
 - React.js
-- Redux Toolkit
 - Material UI
 - Axios
 
